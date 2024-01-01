@@ -1,0 +1,16 @@
+.skills__container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap: 50px;
+}
+
+.skills__image {
+    width: 70%;
+    max-width: 200px;
+    transition: 0.3s
+}
+
+.skills__image:hover {
+    transform: scale(1.2) rotate(360deg)
+}

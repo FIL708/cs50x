@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo:wght@400;700&display=swap');
+
+:root {
+    --white: #EFEFEF;
+    --dark: #181818;
+    --primary: #0D6EFD;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--dark);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    gap: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    color: var(--white);
+}
+
+p {
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.05rem;
+    letter-spacing: 2px;
+    color: var(--white);
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.5rem;
+    color: var(--primary);
+}
+
+.section__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%
+}
+
+.nav-link {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    color: var(--white);
+}
+
+.nav-link:hover {
+    color: var(--primary);
+}
+
+.nav-link.active {
+    color: var(--primary)!important;
+}
+
+.navbar-toggler {
+    color: var(--white);
+    border-color: var(--white);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding-top: 30px;
+    margin-top: 30px;
+    background-color: #353535;
+}
+
+.footer__container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.footer__links-list {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.footer__links-list__link {
+    all: unset;
+    color: var(--white);
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.05rem;
+    letter-spacing: 2px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.footer__links-list__link:hover {
+    color: var(--primary)
+}
+
+.footer__social-list {
+    all: unset;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.footer__social-image {
+    transition: 0.3s;
+}
+
+.footer__social-image:hover {
+    transform: scale(1.1)
+}

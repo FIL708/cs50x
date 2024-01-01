@@ -1,0 +1,86 @@
+.prortfolio__introduction {
+    width: 80%;
+    max-width: 1000px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.portfolio__illustration {
+    width: 80%;
+    max-width: 400px
+}
+
+.portfolio__section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portfolio__project__title {
+    color: var(--primary);
+}
+
+.portfolio__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio__project__description {
+    min-width: 400px;
+    width: 80%
+}
+
+.portfolio__project__lists {
+    padding: 0;
+    list-style: none;
+
+}
+
+.portfolio__project__details {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    list-style: none;
+}
+
+.portfolio__icon {
+    width: 24px;
+}
+
+.portfolio__project__list__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 4px 0;
+    color: var(--white);
+    font-size: 1.2rem;
+}
+
+.portfolio__project__list__item > a {
+    all: unset;
+    transition: 0.3s;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.portfolio__project__list__item > a:hover {
+    color: var(--primary);
+}
+
+.portfolio__project__details > h4 {
+    font-family: "Heebo", sans-serif;
+    font-size: 1.2rem;
+}
+
+.portfolio__app-preview {
+    max-width: 780px;
+    width: 80%;
+}
+
+@media (max-width: 700px) {
+    .prortfolio__introduction {
+        text-align: justify;
+    }
+}

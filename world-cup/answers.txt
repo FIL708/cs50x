@@ -1,0 +1,19 @@
+Times:
+
+10 simulations: 0m0.036s
+100 simulations: 0m0.029s
+1000 simulations: 0m0.034s
+10000 simulations: 0m0.091s
+100000 simulations: 0m0.715s
+1000000 simulations: 0m6.472s
+
+Questions:
+
+Which predictions, if any, proved incorrect as you increased the number of simulations?:
+
+The accuracy of predictions increases with the number of simulations performed. The small number of simulations makes the predictions random. It is only above 1000 simulations that it can be seen that Belgium and Brazil have the best chances of winning.
+
+Suppose you're charged a fee for each second of compute time your program uses.
+After how many simulations would you call the predictions "good enough"?:
+
+It seems like the predictions stabilized after about 1000

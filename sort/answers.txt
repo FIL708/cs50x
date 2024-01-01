@@ -1,0 +1,11 @@
+sort1 uses: bubble
+
+How do you know?: This algorithm take advantaga of sorted list, which is differnece between bubble and selection algorithm (Ω = n).
+
+sort2 uses: merge
+
+How do you know?: 1. This is the fastest algorithm. 2.It doesn't matter whether the list is sorted or not, because Big O and Ω are the same (n logn).
+
+sort3 uses: selection
+
+How do you know?: This is pretty slow algorithm and it makes no difference if list is sorted or not (Big O = n^2, Ω = n^2).

@@ -1,0 +1,9 @@
+.about__image {
+    border-radius: 8px
+}
+
+@media (max-width: 850px) {
+    .about__image {
+        width: 100%
+    }
+}

@@ -1,0 +1,3 @@
+1. I'm not sure we could do this. As I discovered in this article (https://engineering.atspotify.com/2021/12/the-audio-aura-story-mystical-to-mathematical/) we need to have a total number of pairs and somehow assign a mood to all the songs. Perhaps there is some algorithm that allows us to assign a mood to a specific song based on danceability, energy, valence, tempo, etc.
+
+2. Human emotions are more complex than raw numbers could describe. The purpose of listening to certain songs most of the time is not as obvious as we think. Statistically, we can say that a song is sad or happy, but it is not certain that every listener perceives it this way. A better way to achieve this goal is to create a form with specific questions.
